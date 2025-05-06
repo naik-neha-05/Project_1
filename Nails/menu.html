@@ -1,0 +1,234 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Our Menu - Nailé Luxe</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css"/>
+
+  <style>
+    body {
+      margin: 0;
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      background-color: #fff8f2;
+      color: #333;
+    }
+
+    /* Navbar */
+    .navbar {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      padding: 20px 50px;
+      background-color: #ffffffcc;
+      position: sticky;
+      top: 0;
+      z-index: 100;
+    }
+
+    .navbar a:hover {
+      color: #ff5c8a;
+    }
+
+    .logo {
+      font-size: 28px;
+      font-weight: bold;
+      color: #222;
+    }
+
+    .logo span, .logo2 span {
+      font-family: cursive;
+      color: #ff5c8a;
+    }
+
+    nav ul {
+      list-style: none;
+      display: flex;
+      gap: 25px;
+    }
+
+    nav ul li a {
+      text-decoration: none;
+      color: #333;
+      font-size: 16px;
+    }
+
+    /* Menu Section */
+    .menu-section {
+      max-width: 1200px;
+      margin: 60px auto;
+      padding: 0 20px;
+    }
+
+    .menu-section h2 {
+      text-align: center;
+      font-size: 2.5rem;
+      color: #ff5c8a;
+      margin-bottom: 40px;
+    }
+
+    .menu-list {
+      list-style: none;
+      padding: 0;
+      margin: 0;
+    }
+
+    .menu-item {
+      background-color: #fff;
+      padding: 20px;
+      margin-bottom: 20px;
+      border-radius: 12px;
+      box-shadow: 0 5px 20px rgba(0, 0, 0, 0.1);
+      transition: transform 0.3s ease;
+    }
+
+    .menu-item:hover {
+      transform: translateY(-5px);
+    }
+
+    .menu-item h3 {
+      color: #222;
+      margin-bottom: 10px;
+      font-size: 1.3rem;
+    }
+
+    .menu-item p {
+      color: #666;
+      font-size: 0.95rem;
+      margin-bottom: 10px;
+    }
+
+    .menu-item span {
+      color: #ff69b4;
+      font-weight: bold;
+      font-size: 1.1rem;
+    }
+
+    /* Footer */
+    .footer {
+      background-color: #2E2A47;
+      color: white;
+      text-align: center;
+      padding: 4rem 1rem;
+    }
+
+    .footer-container {
+      max-width: 800px;
+      margin: 0 auto;
+    }
+
+    .footer-logo img {
+      height: 80px;
+      margin-bottom: 1rem;
+    }
+
+    .footer-address,
+    .footer-contact {
+      font-size: 1.1rem;
+      margin: 0.5rem 0;
+    }
+
+    .footer-contact span {
+      margin: 0 0.75rem;
+    }
+
+    .footer-icons {
+      margin-top: 1.5rem;
+    }
+
+    .footer-icons a {
+      color: white;
+      font-size: 1.25rem;
+      margin: 0 0.75rem;
+      transition: color 0.3s ease;
+    }
+
+    .footer-icons a:hover {
+      color: #FFB6C1;
+    }
+
+    .logo2 {
+      font-size: 28px;
+      font-weight: bold;
+      color: #fbf8f8;
+    }
+  </style>
+</head>
+
+<body>
+
+  <!-- Navbar -->
+  <header class="navbar">
+    <div class="logo">Nailé <span>Luxe</span></div>
+    <nav>
+      <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="book.html">Book Now</a></li>
+        <li><a href="giftcard.html">Gift Cards</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <!-- Menu Section -->
+  <section class="menu-section">
+    <h2>Our Services Menu</h2>
+    <ul class="menu-list">
+      <li class="menu-item">
+        <h3>Classic Manicure</h3>
+        <p>Soak, shape, cuticle care, massage & polish.</p>
+        <span>₹500</span>
+      </li>
+      <li class="menu-item">
+        <h3>Deluxe Pedicure</h3>
+        <p>Includes exfoliation, mask, massage & polish.</p>
+        <span>₹800</span>
+      </li>
+      <li class="menu-item">
+        <h3>Gel Polish</h3>
+        <p>Long-lasting gel polish with high shine finish.</p>
+        <span>₹650</span>
+      </li>
+      <li class="menu-item">
+        <h3>Nail Art</h3>
+        <p>Custom designs and creative nail art.</p>
+        <span>₹1000+</span>
+      </li>
+      <li class="menu-item">
+        <h3>Acrylic Extensions</h3>
+        <p>Natural-looking long acrylic nail extensions.</p>
+        <span>₹1500</span>
+      </li>
+      <li class="menu-item">
+        <h3>Refill & Repair</h3>
+        <p>Refill existing nails or fix broken ones.</p>
+        <span>₹400+</span>
+      </li>
+      <li class="menu-item">
+        <h3>Kids Nail Art</h3>
+        <p>Fun & safe designs for little hands.</p>
+        <span>₹300</span>
+      </li>
+      <li class="menu-item">
+        <h3>French Tips</h3>
+        <p>Elegant white-tipped French manicure.</p>
+        <span>₹700</span>
+      </li>
+    </ul>
+  </section>
+
+  <!-- Footer -->
+  <footer class="footer">
+    <div class="logo2">Nailé <span>Luxe</span></div>
+    <p class="footer-address">123 Luxe Street, Los Angeles, USA</p>
+    <p class="footer-contact">+012 345 67890 <span>|</span> naileluxe@email.com</p>
+    <div class="footer-icons">
+      <a href="#"><i class="fab fa-twitter"></i></a>
+      <a href="#"><i class="fab fa-facebook-f"></i></a>
+      <a href="#"><i class="fab fa-youtube"></i></a>
+      <a href="#"><i class="fab fa-instagram"></i></a>
+      <a href="#"><i class="fab fa-linkedin-in"></i></a>
+    </div>
+  </footer>
+
+</body>
+</html>
